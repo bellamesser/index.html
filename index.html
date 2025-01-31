@@ -4,6 +4,7 @@
     <meta charset="UTF-8" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     <title>Isabella Messer - Resume</title> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         /* Simple, inline CSS for styling */
         body {
@@ -11,7 +12,7 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #FFC0CB; /* Light pink background */
+            background-color: #FFC0CB;
             color: #333;
         }
 
@@ -25,7 +26,7 @@
         header h1 {
             margin: 0;
             font-size: 2rem;
-            color: #FFC0CB; /* Change name color to pink */
+            color: #FFC0CB; /* Name color changed to pink */
         }
 
         header p {
@@ -43,17 +44,8 @@
             text-align: center;
         }
 
-        .profile-photo {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%; /* Makes the image circular */
-            display: block;
-            margin: 0 auto 1.5rem auto; /* Centers image */
-        }
-
         section {
             margin-bottom: 2rem;
-            text-align: left;
         }
 
         h2 {
@@ -80,6 +72,16 @@
         a:hover {
             text-decoration: underline;
         }
+
+        /* Style for profile photo */
+        .profile-photo {
+            display: block;
+            margin: 0 auto;
+            width: 150px; /* Adjust size */
+            height: 150px;
+            border-radius: 50%; /* Makes it circular */
+            object-fit: cover;
+        }
     </style> 
   </head> 
   <body> 
@@ -89,31 +91,33 @@
     </header> 
     <main> 
       <!-- Profile Photo -->
-      <img src="IMG_5202.JPG" alt="Isabella Messer" class="profile-photo">
-
+      <img src="your-photo.jpg" alt="Isabella Messer" class="profile-photo">
+      
       <section id="about"> 
         <h2>About Me</h2> 
         <p> Brief introduction about yourself. Mention your experience, expertise, and interests. </p> 
       </section> 
+      
       <section id="experience"> 
         <h2>Experience</h2> 
         <ul> 
           <li> <strong>Intern</strong> at <em>Stewart Alexander Medical Program</em> (July 2024 - August 2024) 
             <p>
-              • Gained a well-rounded view of the medical field through diverse clinical experiences and exposure to different specialties. <br>
-              • Learned how to use the Da Vinci and Senhance robots, as well as participating in a suture lab. <br>
+              • Gained a well-rounded view of the medical field through diverse clinical experiences and exposure to different specialties.<br>
+              • Learned how to use the Da Vinci and Senhance robots, as well as participating in a suture lab.<br>
               • Experienced patient-doctor consultations and examinations.
             </p> 
           </li> 
           <li> <strong>Receptionist</strong> at <em>Wildes and Weinberg, P.C</em> (June 2024 - July 2024) 
             <p>
-              • Managed front desk operations, including answering and forwarding calls and organizing documents. <br>
-              • Processed client payments and performed administrative tasks like copying, filing, and correspondence management. <br>
+              • Managed front desk operations, including answering and forwarding calls and organizing documents.<br>
+              • Processed client payments and performed administrative tasks like copying, filing, and correspondence management.<br>
               • Provided excellent customer service, ensuring effective communication between clients and attorneys.
             </p> 
           </li> 
         </ul> 
       </section> 
+      
       <section id="skills"> 
         <h2>Skills</h2> 
         <ul> 
@@ -122,6 +126,7 @@
           <li>Patient Assessment</li> 
         </ul> 
       </section> 
+      
       <section id="contact"> 
         <h2>Contact</h2> 
         <p>Email: <a href="mailto:bellamesser25@gmail.com">bellamesser25@gmail.com</a></p> 
